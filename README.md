@@ -9,11 +9,15 @@ Make the website publicly accessible
 Generate and test the website endpoint
 ## Prerequisites
 AWS account
+
 Access to AWS Management Console
+
 Modified index.html file
 ## Architecture Overview
 Amazon S3 → Object storage
+
 S3 Static Website Hosting → Serves content over HTTP
+
 Bucket Policy → Controls public access
 ## Implementation Steps
 1. Create an S3 Bucket
@@ -35,11 +39,20 @@ Index document: index.html
 https://oyin-static-site.s3.eu-north-1.amazonaws.com/index.html
 ## Testing
 Open the endpoint in a browser
+
 Confirm the index.html page loads successfully
 ## Challenges Encountered and Resolution
 Public access errors:
+
 Resolved by disabling Block Public Access at the bucket level and applying the correct bucket policy.
+
 AWS console “Unexpected error” messages:
+
+<img width="1362" height="660" alt="error 1" src="https://github.com/user-attachments/assets/43b587b8-856c-4c37-8541-90b143947d85" />
+
+
+
+
 Identified as permission conflicts caused by public access restrictions.
 ## Conclusion
 This project successfully demonstrated how to host a static website using Amazon S3. By leveraging S3 static website hosting, the website was deployed without the need for servers, making the solution scalable, cost-effective, and easy to manage. 
