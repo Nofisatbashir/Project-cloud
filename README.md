@@ -41,6 +41,8 @@ https://oyin-static-site.s3.eu-north-1.amazonaws.com/index.html
 Open the endpoint in a browser
 
 Confirm the index.html page loads successfully
+<img width="1118" height="661" alt="my web snip" src="https://github.com/user-attachments/assets/974b982a-82e5-4a60-a7d9-5a43cb5fedde" />
+
 ## Challenges Encountered and Resolution
 Public access errors:
 
